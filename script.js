@@ -10,11 +10,11 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Ilha do Pacifico!",
-                afirmacao: "No início ficou proposto do que essa tecnologia pode fazer. "
+                afirmacao: "Você escolheu esta opção "
             },
             {
                 texto: "Jardim Botanico!",
-                afirmacao: "Quis saber como usar IA no seu dia a dia."
+                afirmacao: "Você escolheu esta opção"
             }
         ]
     },
