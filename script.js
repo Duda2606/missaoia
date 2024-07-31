@@ -6,14 +6,14 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: "Quais sao os lugares que contem maior concentra;ao de lixo nos oceanos",
+        enunciado: "Quais sao os lugares que contem maior concentracao de lixo nos oceanos",
         alternativas: [
             {
-                texto: "Isso é assustador!",
+                texto: "Ilha do Pacifico!",
                 afirmacao: "No início ficou proposto do que essa tecnologia pode fazer. "
             },
             {
-                texto: "Isso é maravilhoso!",
+                texto: "Jardim Botanico!",
                 afirmacao: "Quis saber como usar IA no seu dia a dia."
             }
         ]
