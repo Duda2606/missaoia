@@ -6,67 +6,68 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: "Quais sao os lugares que contem maior concentracao de lixo nos oceanos",
+        enunciado: "Quais são os lugares que contêm maior concentração de lixo nos oceanos?",
         alternativas: [
             {
-                texto: "Ilha do Pacifico!",
+                texto: "Ilha do Pacifico",
                 afirmacao: "Você escolheu esta opção "
             },
             {
-                texto: "Jardim Botanico!",
+                texto: "Jardim Botanico",
                 afirmacao: "Você escolheu esta opção"
             }
         ]
     },
     {
-        enunciado: "Com a descoberta desta tecnologia, chamada Inteligência Artificial, uma professora de tecnologia da escola decidiu fazer uma sequência de aulas sobre esta tecnologia. No fim de uma aula ela pede que você escreva um trabalho sobre o uso de IA em sala de aula. Qual atitude você toma?",
+        enunciado: "A contaminação da água é responsável pela morte de várias pessoas anualmente, principalmente crianças menores de cinco anos de idade. Analise as alternativas a seguir e marque a única que não se refere a uma medida que pode reduzir as mortes por causa de ingestão de água contaminada.",
         alternativas: [
             {
-                texto: "Utiliza uma ferramenta de busca na internet que utiliza IA para que ela ajude a encontrar informações relevantes para o trabalho e explique numa linguagem que facilite o entendimento.",
-                afirmacao: "Conseguiu utilizar a IA para buscar informações úteis."
+                texto: "Sempre que possível, aproveitar a água da chuva para fins potáveis",
+                afirmacao: "Você escolhe está alternativa"
             },
             {
-                texto: "Escreve o trabalho com base nas conversas que teve com colegas, algumas pesquisas na internet e conhecimentos próprios sobre o tema.",
-                afirmacao: "Sentiu mais facilidade em utilizar seus próprios recursos para escrever seu trabalho."
+                texto: "Garantir o fornecimento de água tratada",
+                afirmacao: "Você escolheu está alternativa"
             }
         ]
     },
     {
-        enunciado: "Após a elaboração do trabalho escrito, a professora realizou um debate entre a turma para entender como foi realizada a pesquisa e escrita. Nessa conversa também foi levantado um ponto muito importante: como a IA impacta o trabalho do futuro. Nesse debate, como você se posiciona?",
+        enunciado: "O lançamento de esgoto na água é prejudicial porque causa o aumento de nutrientes e do número de algas. O aumento desses organismos forma uma camada que prejudica a entrada de luz solar e, consequentemente, afeta o processo de fotossíntese. Essa ocorrência, que desencadeia a morte de vários organismos, é conhecida como:"
         alternativas: [
             {
-                texto: "Defende a ideia de que a IA pode criar novas oportunidades de emprego e melhorar habilidades humanas.",
-                afirmacao: "Vem impulsionando a inovação na área de IA e luta para abrir novos caminhos profissionais com IA."
+                texto: "Reprodução",
+                afirmacao: "Parabéns"
             },
             {
-                texto: "Me preocupo com as pessoas que perderão seus empregos para máquinas e defendem a importância de proteger os trabalhadores.",
-                afirmacao: "Sua preocupação com as pessoas motivou a criar um grupo de estudos entre trabalhadores para discutir meios de utilização de IA de forma ética."
+                texto: "Eutrofização",
+                afirmacao: "Parabéns"
             }
         ]
     },
     {
-        enunciado: "Ao final da discussão, você precisou criar uma imagem no computador que representasse o que pensa sobre IA. E agora?",
+        enunciado: "O derramamento de petróleo no mar é um problema ambiental grave que merece atenção. Um dos piores vazamentos de petróleo que já ocorreram no planeta foi no Golfo do México, em 2010, onde cerca de cinco milhões de barris de petróleo foram lançados nas águas. Baseando-se nos seus conhecimentos sobre o tema, marque a única alternativa que não indica uma consequência da poluição no mar por petróleo.",
         alternativas: [
             {
-                texto: "Criar uma imagem utilizando uma plataforma de design como o Paint.",
-                afirmacao: "Notou também que muitas pessoas não sabem ainda utilizar as ferramentas tradicionais e decidiu compartilhar seus conhecimentos de design utilizando ferramentas de pintura digital para iniciantes."
+                texto: "Diminuição da pesca na região",
+                afirmacao: "Acertou"
             },
             {
-                texto: "Criar uma imagem utilizando um gerador de imagem de IA.",
-                afirmacao: "Acelerou o processo de criação de trabalhos utilizando geradores de imagem e agora consegue ensinar pessoas que sentem dificuldades em desenhar manualmente como utilizar também!"
+                texto: "Aumento da taxa de fotossíntese das algas",
+                afirmacao: "Acertou"
             }
         ]
     },
     {
-        enunciado: "Você tem um trabalho em grupo de biologia para entregar na semana seguinte, o andamento do trabalho está um pouco atrasado e uma pessoa do seu grupo decidiu fazer com ajuda da IA. O problema é que o trabalho está totalmente igual ao do chat. O que você faz? ",
+        enunciado: "Existem diversos tipos diferentes de poluição, sendo todos prejudiciais ao meio ambiente. Algumas poluições, no entanto, são pouco lembradas, como é o caso da poluição desencadeada quando o volume de determinado som é superior àqueles considerados normais. Analise as alternativas abaixo e marque o nome desse tipo de poluição:"
+",
         alternativas: [
             {
-                texto: "Escrever comandos para o chat é uma forma de contribuir com o trabalho, por isso não é um problema utilizar o texto inteiro.",
-                afirmacao: "Infelizmente passou a utilizar a IA para fazer todas suas tarefas e agora se sente dependente da IA para tudo."
+                texto: "Sonora",
+                afirmacao: "Você chegou ao final"
             },
             {
-                texto: "O chat pode ser uma tecnologia muito avançada, mas é preciso manter a atenção pois toda máquina erra, por isso revisar o trabalho e contribuir com as perspectivas pessoais é essencial.",
-                afirmacao: "Percebeu que toda IA reproduz orientações baseadas na empresa que programou e muito do que o chat escrevia não refletia o que pensava e por isso sabe que os textos gerados pela IA devem servir como auxílio e não resultado final. "
+                texto: "Visual",
+                afirmacao: "Você chegou ao final"
             }
         ]
     },
