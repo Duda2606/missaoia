@@ -10,7 +10,7 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Ilha do Pacifico",
-                afirmacao: "Você escolheu esta opção "
+                afirmacao: "Você escolheu esta opção."
             },
             {
                 texto: "Jardim Botanico",
