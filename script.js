@@ -32,7 +32,7 @@ const perguntas = [
         ]
     },
     {
-        enunciado: "O lançamento de esgoto na água é prejudicial porque causa o aumento de nutrientes e do número de algas. O aumento desses organismos forma uma camada que prejudica a entrada de luz solar e, consequentemente, afeta o processo de fotossíntese. Essa ocorrência, que desencadeia a morte de vários organismos, é conhecida como:"
+        enunciado: "O lançamento de esgoto na água é prejudicial porque causa o aumento de nutrientes e do número de algas. O aumento desses organismos forma uma camada que prejudica a entrada de luz solar e, consequentemente, afeta o processo de fotossíntese. Essa ocorrência, que desencadeia a morte de vários organismos, é conhecida como:",
         alternativas: [
             {
                 texto: "Reprodução",
@@ -58,8 +58,7 @@ const perguntas = [
         ]
     },
     {
-        enunciado: "Existem diversos tipos diferentes de poluição, sendo todos prejudiciais ao meio ambiente. Algumas poluições, no entanto, são pouco lembradas, como é o caso da poluição desencadeada quando o volume de determinado som é superior àqueles considerados normais. Analise as alternativas abaixo e marque o nome desse tipo de poluição:"
-",
+        enunciado: "Existem diversos tipos diferentes de poluição, sendo todos prejudiciais ao meio ambiente. Algumas poluições, no entanto, são pouco lembradas, como é o caso da poluição desencadeada quando o volume de determinado som é superior àqueles considerados normais. Analise as alternativas abaixo e marque o nome desse tipo de poluição:",
         alternativas: [
             {
                 texto: "Sonora",
