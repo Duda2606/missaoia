@@ -30,7 +30,7 @@
 
     <script>
         function gerarNome() {
-            const nomes = ["Ana", "Bruno", "Carla", "Diego", "Eva"];
+            const nomes = ["Duda", "Manu", "Matheus", "Caio", "Leonardo", "Maria"];
             const nomeAleatorio = nomes[Math.floor(Math.random() * nomes.length)];
             document.getElementById("nome").textContent = nomeAleatorio;
         }
